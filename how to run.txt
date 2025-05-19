@@ -1,0 +1,24 @@
+# Step 1: Create virtual environment
+python -m venv myvenv
+
+# Step 2: Activate the virtual environment
+# Use the appropriate command depending on your OS:
+
+# For Windows (CMD):
+myvenv\Scripts\activate
+
+# For Windows (PowerShell):
+myvenv\Scripts\Activate.ps1
+
+# For macOS/Linux:
+source myvenv/bin/activate
+
+# Step 3: Install required packages
+# If you have a requirements.txt:
+pip install -r requirements.txt
+
+# OR install manually like:
+pip install requests flask
+
+# Step 4: Run your Python script
+python main.py
